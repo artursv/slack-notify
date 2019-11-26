@@ -1,0 +1,18 @@
+{
+    "name": "arturs/slack-notify",
+    "description": "Send Slack notifications for you CircleCI jobs.",
+    "require": {
+        "guzzlehttp/guzzle": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Notification\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Arturs Vilkajs",
+            "email": "arturs.vilkajs@wunder.io"
+        }
+    ]
+}
